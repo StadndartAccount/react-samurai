@@ -1,0 +1,8 @@
+.slider_arrow {
+    padding: 0 50px;
+    color: #f3f3f3;
+}
+
+.slider_arrow:hover {
+    cursor: pointer;
+}

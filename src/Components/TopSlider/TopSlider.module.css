@@ -1,0 +1,32 @@
+.top_slider {
+    position: relative;
+    grid-area: top_slider;
+    overflow: hidden;
+    height: 465px;
+    width: 1100px;
+    
+}
+
+.elements_wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -200%;
+    display: inline-flex;
+    flex-direction: row;
+    height: 100%;
+    width: auto;
+}
+
+.arrows_wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1100px;
+    align-items: center;
+}

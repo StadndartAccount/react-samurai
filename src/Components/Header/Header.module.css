@@ -1,0 +1,28 @@
+.header {
+    height: 220px;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+}
+
+.social_links {
+    width: 33.3333%;
+}
+
+.logo_image {
+    height: 150px;
+    align-self: center;
+}
+
+.search_wrapper {
+    width: 33.3333%;
+    display: flex;
+    justify-content: end;
+}
+
+.logo_wrapper {
+    width: 33.3333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

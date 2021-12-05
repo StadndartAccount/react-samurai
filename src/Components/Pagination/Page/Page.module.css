@@ -1,0 +1,26 @@
+.page {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    color: #929292;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.page.active {
+    background-color: #ec6a2a;
+    color: #f3f3f3;
+    pointer-events: none;
+}
+
+.page:hover {
+    background-color: #ec6a2a;
+    color: #f3f3f3;
+}

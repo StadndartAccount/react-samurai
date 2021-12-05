@@ -1,0 +1,29 @@
+.link_wrapper {
+    padding: 5px 0;
+    margin-right: 15px;
+}
+
+.link_wrapper:last-child {
+    margin-right: 0;
+}
+
+.link {
+    font-weight: 600;
+    font-size: 15px;
+    color: #999999;
+    text-decoration: none;
+
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.active.link {
+    color: #333333;
+}
